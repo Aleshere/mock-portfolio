@@ -8,6 +8,7 @@
     <meta name='apple-mobile-web-app-status-bar-style' content='black' />
     <title>Portfolio</title>
     <link rel='stylesheet' href='default.css'>
+    <link id="themeStyle" rel="stylesheet" href="">
 </head>
 
 <body>
@@ -35,10 +36,10 @@
                     <h5>Personalize Theme</h5>
 
                     <div id="themeOptionsWrapper">
-                        <div  id="lightMode" class="theme-dot"></div>
-                        <div  id="blueMode" class="theme-dot"></div>
-                        <div  id="greenMode" class="theme-dot"></div>
-                        <div  id="purpleMode" class="theme-dot"></div>
+                        <div  data-mode='light' id="lightMode" class="theme-dot"></div>
+                        <div  data-mode='blue' id="blueMode" class="theme-dot"></div>
+                        <div  data-mode='green' id="greenMode" class="theme-dot"></div>
+                        <div  data-mode='purple' id="purpleMode" class="theme-dot"></div>
                     </div>
 
                     <p id="settingsNote" >Theme settings will be saved for <br> your next visit</p>
@@ -123,7 +124,7 @@
                         <div class="post-preview">
                             <h6 class="post-title">Laboratory Management System</h6>
                             <p class="post-intro">Designed built and maintained a the lab management system for FOI labs</p>
-                            <a href="#">Read More</a>
+                            <a href="post.html">Read More</a>
                         </div>
                     </div>
                 </div>
